@@ -11,3 +11,8 @@ class Filme3(nome: String, anoLancamento: Int, genero: String) {
         this.genero = genero
     }
 }
+
+fun main(args: Array<String>) {
+    val filme = Filme3("Os incriveis", 2004, "Ação")
+    println("O filme ${filme.nome} foi lançado em ${filme.anoLancamento} é do genero ${filme.genero}. ".toUpperCase())
+}
